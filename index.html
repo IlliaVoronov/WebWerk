@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebWerk Lörrach - Website Agency für KMUs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="/src/main.js"></script>
+
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-50 font-sans">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-gray-800">WebWerk <span class="text-blue-600">Lörrach</span></h1>
+                    </div>
+                </div>
+                <div class="flex items-center ">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition duration-300">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition duration-300">Über Uns</a>
+                    <a href="#portfolio" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition duration-300">Portfolio</a>
+                    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition duration-300 ml-3">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg pt-20 pb-16 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                    Professionelle Websites für <span class="text-yellow-300">KMUs</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+                    Wir entwickeln maßgeschneiderte, hochwertige Websites für kleine und mittlere Unternehmen in Lörrach und Umgebung
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300 shadow-lg">
+                        Kostenloses Beratungsgespräch
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
+                        Portfolio ansehen
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Über WebWerk Lörrach</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Wir sind Ihr lokaler Partner für professionelle Webentwicklung, spezialisiert auf die Bedürfnisse des deutschen Mittelstands
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-6">Unsere Mission</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        WebWerk Lörrach wurde gegründet, um lokalen Unternehmen dabei zu helfen, ihre Online-Präsenz zu stärken und ihr Wachstum zu fördern. Wir verstehen die einzigartigen Herausforderungen, denen sich KMUs in der digitalen Welt gegenübersehen.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Unser Ziel ist es, erschwingliche, benutzerfreundliche und visuell ansprechende Websites zu entwickeln, die messbare Ergebnisse liefern und das Vertrauen Ihrer Kunden stärken.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-chart-line text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900">Datengesteuerte Ergebnisse</h4>
+                            <p class="text-gray-600">Wir optimieren basierend auf Analytics und Benutzerverhalten</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-2xl">
+                    <h4 class="text-2xl font-bold text-gray-900 mb-6">Unsere Werte</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-900">Lokale Expertise</h5>
+                                <p class="text-gray-600 text-sm">Tiefes Verständnis des Lörracher KMU-Marktes</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-900">Persönlicher Service</h5>
+                                <p class="text-gray-600 text-sm">Dedicated Account Manager für jeden Kunden</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-900">Faire Preise</h5>
+                                <p class="text-gray-600 text-sm">Skalierbare Pakete für jede Unternehmensgröße</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-check-circle text-green-500 mt-1"></i>
+                            <div>
+                                <h5 class="font-semibold text-gray-900">DSGVO-Konform</h5>
+                                <p class="text-gray-600 text-sm">Vollständige Compliance mit deutschen Standards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover border">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-laptop-code text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Maßgeschneiderte Websites</h3>
+                    <p class="text-gray-600 mb-4">Responsive, SEO-optimierte Websites auf WordPress oder individuell programmiert, perfekt abgestimmt auf Ihre Marke und Ziele.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• HTML5, CSS3, JavaScript</li>
+                        <li>• Mobile-First Design</li>
+                        <li>• SEO-Optimierung</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover border">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-shopping-cart text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">E-Commerce Lösungen</h3>
+                    <p class="text-gray-600 mb-4">Online-Shops mit Zahlungsgateways, Lagerverwaltung und benutzerfreundlichen Oberflächen für maximalen Umsatz.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Sichere Zahlungsabwicklung</li>
+                        <li>• Inventory Management</li>
+                        <li>• Mobile Shopping</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover border">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-bar text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Digital Marketing</h3>
+                    <p class="text-gray-600 mb-4">SEO, Google Ads und Social Media Management zur Steigerung Ihrer Online-Sichtbarkeit und Kundengewinnung.</p>
+                    <ul class="text-sm text-gray-500 space-y-1">
+                        <li>• Suchmaschinenoptimierung</li>
+                        <li>• Google Ads Kampagnen</li>
+                        <li>• Social Media Integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Technology Stack -->
+            <div class="bg-gray-100 p-8 rounded-2xl">
+                <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Unsere Technologien</h3>
+                <div class="grid grid-cols-2 md:grid-cols-6 gap-8 items-center justify-items-center">
+                    <div class="text-center">
+                        <i class="fab fa-html5 text-4xl text-orange-500 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">HTML5</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fab fa-css3-alt text-4xl text-blue-500 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">CSS3</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fab fa-js-square text-4xl text-yellow-500 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">JavaScript</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fab fa-wordpress text-4xl text-blue-600 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">WordPress</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fab fa-google text-4xl text-red-500 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">Analytics</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-shield-alt text-4xl text-green-500 tech-icon"></i>
+                        <p class="text-sm text-gray-600 mt-2">DSGVO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Unser Portfolio</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Entdecken Sie einige unserer erfolgreichen Projekte für KMUs in Lörrach und Umgebung
+                </p>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-utensils text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Restaurant Schwarzwald</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Restaurant Website</h3>
+                        <p class="text-gray-600 mb-4">Moderne Website für ein traditionelles Restaurant mit Online-Reservierungssystem und Speisekarte.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WordPress</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Reservierungen</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">SEO</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Gastronomie</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-chart-line text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+150% Traffic</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-green-500 to-blue-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-tools text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Handwerk Müller GmbH</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Handwerker-Portfolio</h3>
+                        <p class="text-gray-600 mb-4">Professionelle Präsentation von Dienstleistungen mit Projektgalerie und Kontaktformular.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Custom Code</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Galerie</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Mobile</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Handwerk</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-phone text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+200% Anfragen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-shopping-bag text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Boutique Lörrach</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">E-Commerce Shop</h3>
+                        <p class="text-gray-600 mb-4">Online-Shop für lokale Boutique mit Inventory Management und sicheren Zahlungen.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WooCommerce</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Payment</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Inventory</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Einzelhandel</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-euro-sign text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+300% Online Sales</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-balance-scale text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Kanzlei Weber</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Anwaltskanzlei</h3>
+                        <p class="text-gray-600 mb-4">Professionelle Website für Rechtsanwaltskanzlei mit Terminbuchung und Rechtsgebieten.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WordPress</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Termine</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">DSGVO</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Recht</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-users text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+120% Mandanten</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-teal-500 to-green-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-heartbeat text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Praxis Dr. Schmidt</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Arztpraxis Website</h3>
+                        <p class="text-gray-600 mb-4">Moderne Praxis-Website mit Online-Terminvereinbarung und Patienteninformationen.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Custom</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Termine</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Sicher</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Gesundheit</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-calendar text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+80% Online Termine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover">
+                    <div class="h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                        <div class="text-white text-center">
+                            <i class="fas fa-graduation-cap text-4xl mb-2"></i>
+                            <h4 class="text-lg font-semibold">Sprachschule Lörrach</h4>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Bildungsportal</h3>
+                        <p class="text-gray-600 mb-4">Interaktive Website für Sprachschule mit Kursanmeldung und Online-Learning-Features.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">WordPress</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">LMS</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Multilingual</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500">Bildung</span>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-user-graduate text-green-500"></i>
+                                <span class="text-sm text-green-600 font-semibold">+250% Anmeldungen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Stats -->
+            <div class="grid md:grid-cols-4 gap-8 bg-white p-8 rounded-2xl shadow-lg">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600 mb-2">50+</div>
+                    <div class="text-gray-600">Erfolgreiche Projekte</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600 mb-2">98%</div>
+                    <div class="text-gray-600">Kundenzufriedenheit</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600 mb-2">24/7</div>
+                    <div class="text-gray-600">Support & Wartung</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-orange-600 mb-2">3x</div>
+                    <div class="text-gray-600">Durchschn. ROI-Steigerung</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Unsere Pakete</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Transparente Preise für jede Unternehmensgröße - von Start-ups bis zum etablierten Mittelstand
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Basic Package -->
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Basic</h3>
+                        <div class="text-4xl font-bold text-gray-900 mb-2">€1.500</div>
+                        <p class="text-gray-600">Perfekt für kleine Unternehmen</p>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>5-seitige Website</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Responsive Design</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>SEO-Grundsetup</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>1 Jahr Wartung inklusive</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>DSGVO-konform</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition duration-300">
+                        Paket wählen
+                    </button>
+                </div>
+
+                <!-- Standard Package -->
+                <div class="bg-blue-600 text-white rounded-2xl p-8 card-hover transform scale-105 relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold">
+                        Beliebt
+                    </div>
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold mb-2">Standard</h3>
+                        <div class="text-4xl font-bold mb-2">€3.000</div>
+                        <p class="opacity-90">Ideal für wachsende Unternehmen</p>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>10-seitige Website</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>E-Commerce Integration</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>SEO + PPC Setup</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>Google Analytics</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>Social Media Integration</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-yellow-400 mr-3"></i>
+                            <span>6 Monate Support</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-white text-blue-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                        Paket wählen
+                    </button>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 card-hover">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Premium</h3>
+                        <div class="text-4xl font-bold text-gray-900 mb-2">€5.000+</div>
+                        <p class="text-gray-600">Für etablierte Unternehmen</p>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Maßgeschneiderte Lösung</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Custom Programming</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Erweiterte E-Commerce</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Digital Marketing Kampagnen</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Dedicated Account Manager</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>12 Monate Premium Support</span>
+                        </li>
+                    </ul>
+                    <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-semibold transition duration-300">
+                        Paket wählen
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Bereit für Ihr nächstes Projekt?</h2>
+                <p class="text-xl opacity-90 max-w-3xl mx-auto">
+                    Kontaktieren Sie uns für ein kostenloses Beratungsgespräch und lassen Sie uns gemeinsam Ihre Online-Präsenz auf das nächste Level bringen
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Kontaktinformationen</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Adresse</h4>
+                                <p class="opacity-90">Hauptstraße 123<br>79540 Lörrach, Deutschland</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-phone text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Telefon</h4>
+                                <p class="opacity-90">+49 7621 123456</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">E-Mail</h4>
+                                <p class="opacity-90">info@webwerk-loerrach.de</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-white bg-opacity-20 p-3 rounded-full">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-lg">Öffnungszeiten</h4>
+                                <p class="opacity-90">Mo-Fr: 9:00 - 18:00 Uhr<br>Sa: 10:00 - 14:00 Uhr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold mb-6">Kostenlose Beratung anfragen</h3>
+                    <form class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="Vor- & Nachname" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 placeholder-white placeholder-opacity-70 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            <input type="email" placeholder="E-Mail-Adresse" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 placeholder-white placeholder-opacity-70 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                        </div>
+                        <input type="text" placeholder="Unternehmen" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 placeholder-white placeholder-opacity-70 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                        <textarea rows="4" placeholder="Beschreiben Sie Ihr Projekt..." class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 placeholder-white placeholder-opacity-70 text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 resize-none"></textarea>
+                        <button type="submit" class="w-full bg-white text-blue-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                            Kostenlose Beratung anfordern
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">WebWerk <span class="text-blue-400">Lörrach</span></h3>
+                    <p class="text-gray-400 mb-4">Ihr lokaler Partner für professionelle Webentwicklung und digitale Lösungen für KMUs in Lörrach und Umgebung.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-xing text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition duration-300">Website Entwicklung</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">E-Commerce Lösungen</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">SEO & Marketing</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Website Wartung</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Unternehmen</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#about" class="hover:text-white transition duration-300">Über uns</a></li>
+                        <li><a href="#portfolio" class="hover:text-white transition duration-300">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Karriere</a></li>
+                        <li><a href="#contact" class="hover:text-white transition duration-300">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Rechtliches</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition duration-300">Impressum</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Datenschutz</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">AGB</a></li>
+                        <li><a href="#" class="hover:text-white transition duration-300">Cookie-Richtlinie</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 WebWerk Lörrach. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active class to navigation links
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop <= 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-600');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('text-blue-600');
+                }
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Vielen Dank für Ihre Anfrage! Wir melden uns schnellstmöglich bei Ihnen.');
+        });
+    </script>
+</body>
+</html>
